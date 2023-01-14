@@ -1,0 +1,8 @@
+.piemove{
+    animation:piemove .6s ease-in 1 backwards;
+}
+@keyframes piemove {
+    0%{
+        transform: translateX(10px);
+    }
+}

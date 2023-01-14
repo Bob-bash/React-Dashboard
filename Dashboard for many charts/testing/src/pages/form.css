@@ -1,0 +1,68 @@
+.form__inw{
+    position: relative;
+}
+.inlabel{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .3s ;
+    left: 5%;
+    height: max-content;
+    width: max-content;
+}
+.form__in{
+    width: 100%;
+    padding: 15px ;
+    padding-left: 4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 3px 3px 0 0;
+}
+.form__ins{
+    display: grid;
+    width: 100%;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 35px 20px;
+}
+.form__in{
+    border-bottom: 1px solid white;
+}
+.form__in:valid ~ .inlabel,
+.form__in:focus ~ .inlabel{
+    top: 0px;
+    left: 4%;
+}
+.form__inw__ano{
+    grid-column: 1/3;
+}
+.inlabel1{
+    left: 2%;
+}
+.form__in1{
+    padding-left: 2%;
+}
+
+.form__in1:valid ~ .inlabel1,
+.form__in1:focus ~ .inlabel1{
+    top: 0px;
+    left: 2%;
+}
+.form__btn{
+    width: max-content;
+    padding:15px 12px;
+    border: none;
+    outline: none;
+    border-radius:4px;
+    grid-column: 2/2;
+    cursor: pointer;
+    place-self: end ;
+}
+.formmove{
+    animation:formmove .6s ease-in 1 backwards;
+}
+@keyframes formmove {
+    0%{
+        transform: translateX(10px);
+    }
+}

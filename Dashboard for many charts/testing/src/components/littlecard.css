@@ -1,0 +1,20 @@
+.littlecardw{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.littlecardr{
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+.littlecardl{
+    text-align: center;
+}
+.littlecardw:hover{
+    background-color: rgba(19,27,45,255) !important;
+    cursor: pointer;
+}
+.littlecardw:hover .littlecardr{
+    background-color:rgba(30,41,63,255) !important ;
+}

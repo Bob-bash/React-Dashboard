@@ -1,0 +1,17 @@
+.dashcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.dashcard__com{
+    display: flex;
+    flex-direction: column;
+}
+.dashcard__left{
+    gap: 2px;
+}
+.dashcard__right{
+    gap: 10px;
+    align-items: center;
+}

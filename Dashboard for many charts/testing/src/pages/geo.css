@@ -1,0 +1,8 @@
+.geomove{
+    animation:geomove .6s ease-in 1 backwards;
+}
+@keyframes geomove {
+    0%{
+        transform: translateX(10px);
+    }
+}

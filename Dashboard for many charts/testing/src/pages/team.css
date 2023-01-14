@@ -1,0 +1,8 @@
+.teammove{
+    animation:teammove .6s ease-in 1 backwards;
+}
+@keyframes teammove {
+    0%{
+        transform: translateX(10px);
+    }
+}

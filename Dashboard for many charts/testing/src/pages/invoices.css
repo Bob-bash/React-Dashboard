@@ -1,0 +1,55 @@
+.css-f3jnds-MuiDataGrid-columnHeaders{
+    background-color: rgba(63,67,149,255);
+    color: rgba(255, 255, 255, .8);
+}
+.MuiDataGrid-root{
+    border: none !important;
+}
+.MuiDataGrid-iconSeparator{
+    display: none !important;
+}
+.css-levciy-MuiTablePagination-displayedRows,.css-de9k3v-MuiDataGrid-selectedRowCount{
+    color: white;
+    font-weight: bold;
+}
+.css-1e2bxag-MuiDataGrid-root .MuiDataGrid-iconSeparator{
+    display: none !important;
+}
+.MuiDataGrid-row:hover{
+    background-color:gray !important;
+    cursor: pointer;
+}
+.css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone{
+    background-color: rgba(28,39,60,255);   
+}
+.MuiDataGrid-columnHeaderTitleContainer{
+    justify-content: space-between;
+}
+.MuiDataGrid-footerContainer{
+    background-color: rgba(63,67,149,255);
+}
+.MuiDataGrid-virtualScrollerContent{
+    background-color: rgba(28,39,59,255);
+}
+/* .nameclass{
+    color:rgba(105,196,181,255) !important;
+    font-weight: bold;
+} */
+/* .costclass{
+    color: rgba(105,196,181,255) !important;
+    font-weight: bold;
+} */
+.MuiDataGrid-cell{
+    border-bottom:1px solid rgba(255, 255, 255, .2) !important;
+}
+.MuiDataGrid-columnHeaders,.MuiDataGrid-footerContainer{
+    border: none !important;
+}
+.invoicesmove{
+    animation:invoicesmove .6s ease-in 1 backwards;
+}
+@keyframes invoicesmove {
+    0%{
+        transform: translateX(10px);
+    }
+}

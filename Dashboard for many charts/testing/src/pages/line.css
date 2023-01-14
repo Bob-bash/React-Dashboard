@@ -1,0 +1,8 @@
+.linemove{
+    animation:linemove .6s ease-in 1 backwards;
+}
+@keyframes linemove {
+    0%{
+        transform: translateX(10px);
+    }
+}

@@ -1,0 +1,35 @@
+.faq__main{
+    padding: 30px 0;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    color: white;
+}
+.faq__main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 78vh;
+    overflow: auto;
+}
+.faq__main::-webkit-scrollbar{
+    display: none;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    padding:10px 20px !important;
+}
+.faq__des{
+    margin-bottom: 20px !important;
+}
+.faqmove{
+    animation:faqmove .6s ease-in 1 backwards;
+}
+@keyframes faqmove {
+    0%{
+        transform: translateX(10px);
+    }
+}
+.faq__card{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}

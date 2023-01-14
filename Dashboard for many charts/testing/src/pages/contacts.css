@@ -1,0 +1,8 @@
+.contactsmove{
+    animation:contactsmove .6s ease-in 1 backwards;
+}
+@keyframes contactsmove {
+    0%{
+        transform: translateX(10px);
+    }
+}

@@ -1,0 +1,61 @@
+.calendarmove{
+    animation:calendarmove .6s ease-in 1 backwards;
+}
+@keyframes calendarmove {
+    0%{
+        transform: translateX(10px);
+    }
+}
+.calendar{
+    margin-top: 20px;      
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.calendar__left{
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    border-radius:5px ;
+    height: 75vh;
+}
+.calendar__right{
+    flex-basis: 80%;
+}
+.calendar__event+.calendar__event{
+    margin-top: 10px;
+}
+.calendar__event{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;   
+}
+.fc-toolbar-title{
+    color: white;
+    text-align: center;
+    font-size: 26px !important;
+}
+.fc-scrollgrid {
+    color: white;
+}
+.calendar__events{
+    height:70vh;
+    overflow: hidden auto;
+}
+.calendar__events::-webkit-scrollbar{
+    display: none;
+}
+.fc-event{
+    cursor: pointer;
+}
+.fc-scroller::-webkit-scrollbar{
+    border-radius: 1000px;
+    width: 10px;
+    background-color: black;
+}
+.fc-scroller::-webkit-scrollbar-thumb{
+    border-radius: 1000px;
+    background-color: white;
+}
